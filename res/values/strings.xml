@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPaint</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	 <string name="send">Send</string>
+    <string name="color">Color</string>
+    <string name="clear">Clear</string>
+     <string name="load">Load</string>
+     <string name="save">Save</string>
+
+     <string name="saveMessage">Inking saved.</string>
+    <string name="loadMessage">Inking loaded.</string>
+    <string name="saveLoc">savedtext.dat</string>
+    <string name="errorWrite">Error:Please write before sending</string>
+    <string name="sendVal">Sending...Please Wait</string>
+    <string name="color_title">Pick Color</string>
+     
+        <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+     <string name="blue">Blue</string>
+     <string name="yellow">Yellow</string>
+       <string name="cyan">Cyan</string>
+     <string name="gray">Gray</string>
+      <string name="reset">Reset</string>
+      
+    
+    
+</resources>

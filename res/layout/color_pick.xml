@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/color"
+     >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+	
+        	<Button
+            android:id="@+id/black"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/white"
+            android:layout_alignParentLeft="true"
+            android:onClick="setGray"
+            android:text="@string/black" />
+        	
+        <Button
+            android:id="@+id/gray"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/white"
+            android:layout_alignParentLeft="true"
+            android:onClick="setGray"
+            android:text="@string/gray" />
+
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/white"
+            android:layout_toRightOf="@+id/gray"
+            android:onClick="setYellow"
+            android:text="@string/yellow" />
+
+        <Button
+            android:id="@+id/green"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/white"
+            android:layout_toRightOf="@+id/yellow"
+            android:onClick="setGreen"
+            android:text="@string/green" />
+
+        <Button
+            android:id="@+id/cyan"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/gray"
+            android:layout_toLeftOf="@+id/yellow"
+            android:onClick="setCyan"
+            android:text="@string/cyan" />
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_alignBaseline="@+id/green"
+            android:layout_alignBottom="@+id/green"
+            android:layout_toRightOf="@+id/green"
+            android:onClick="setRed"
+            android:text="@string/red" />
+
+        <Button
+            android:id="@+id/white"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/red"
+            android:onClick="setWhite"
+            android:text="@string/white" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/white"
+            android:onClick="cancelColor"
+            android:text="@string/reset" />
+
+        <Button
+            android:id="@+id/blue"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/white"
+            android:onClick="setBlue"
+            android:text="@string/blue" />
+
+    </RelativeLayout>
+
+</LinearLayout>
